@@ -1,0 +1,189 @@
+/*
+author: JackGardnerDev
+date: 12/12/2023 (dd/mm/yyyy)
+*/
+
+/* Body & Background */
+
+body {
+  font-family: 'Julius Sans One', sans-serif, Arial, Helvetica;
+  background-image: url(../imgs/background.png);
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation */
+
+.containerNav {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: auto;
+  overflow: hidden;
+}
+
+.containerNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.containerNav a:hover {
+  color: #1E6BFF;
+}
+
+.containerNav a.active {
+  color: #1E6BFF;
+}
+
+/* Footer */
+
+.containerFooter {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  width: auto;
+}
+
+.containerFooter a {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+.containerFooter a img {
+  width: 50px;
+  height: 50px;
+}
+
+.containerFooter a.discord-link:hover img {
+  content: url('../imgs/discordActive.png');
+}
+
+.containerFooter a.github-link:hover img {
+  content: url('../imgs/githubActive.png');
+}
+
+/* Content Div's (align, shape, size) */
+
+.title {
+  color: #1E6BFF;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-left :5px 
+}
+
+.center, #contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+#about-text, #sub-header {
+  font-size: 2vh;
+}
+
+#main-header, #sub-header {
+  text-align: center;
+}
+
+#main-header {
+  font-size: 6vh;
+}
+
+#about-header {
+  font-size: 4vh;
+}
+
+#contact-header {
+  font-size: 4vh;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Scrollbar */
+
+.scrollable {
+  padding: 0px 0px;
+  margin: 75px 0px;
+  height: 775px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Portfolio */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.col-md {
+  flex: 0 0 calc(25% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.centerButton {
+  margin-top: 20px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #1E6BFF;
+  border: 1px solid #1E6BFF;
+}
