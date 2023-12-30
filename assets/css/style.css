@@ -1,6 +1,6 @@
 /*
 author: JackGardnerDev
-date: 12/12/2023 (dd/mm/yyyy)
+date: 30/12/2023 (dd/mm/yyyy)
 */
 
 /* Body & Background */
@@ -61,8 +61,8 @@ body {
   height: 50px;
 }
 
-.containerFooter a.discord-link:hover img {
-  content: url('../imgs/discordActive.png');
+.containerFooter a.linkedin-link:hover img {
+  content: url('../imgs/linkedinActive.png');
 }
 
 .containerFooter a.github-link:hover img {
